@@ -1,7 +1,8 @@
 package access;
 
 public class Speaker {
-    int volume;
+    // 볼륨을 private으로 수정하여 직접 접근 불가능
+    private int volume;
 
     public Speaker(int volume) {
         this.volume = volume;
