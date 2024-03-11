@@ -12,5 +12,15 @@ public class Main {
         s.delete(0); s.print();
 
         System.out.println("1번째 항목은 " + s.peek(1)+ "이다");
+
+        System.out.println("====================================================");
+
+        SList<String> ss = new SList<>();
+        ss.insertFront("orange"); ss.insertFront("apple");
+        ss.insertAfter("cherry", ss.head.getNext());
+        ss.insertFront("pear");
+
+        ss.print();
+        System.out.println(": ss의 길이 = " + ss.size());
     }
 }
