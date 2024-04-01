@@ -19,3 +19,7 @@
 - overriding
 - 접근제어자
 - super
+- 다형성
+- OCP
+- interface
+- 추상 메서드
